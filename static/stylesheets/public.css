@@ -1,0 +1,216 @@
+html{color:#000;background:#FFF;font-size:16px}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,menu,button{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+ol,ul,li{list-style:none}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}
+legend{color:#000}
+i{font-style:normal}
+html,body,button{-webkit-text-size-adjust:none;-webkit-touch-callout:none;vertical-align:middle;font-size:16px;position:relative;font-family:"Microsoft Yahei",Arial,STHeiti,sans-serif;margin:0;padding:0}
+.clear {clear:both;}
+.clearfix:after{content:"";display:block;clear:both;visibility:hidden;line-height:0;height:0}
+a,div{-webkit-tap-highlight-color:transparent}
+a,a:active,a:hover{text-decoration:none}
+input:focus,li:focus,span:focus,i:focus,img:focus,button:focus{outline:0}
+input[type=text],input[type=submit],button,textarea{-webkit-appearance:none}
+html,body{min-height:100%;height:100%}
+
+.main-container {overflow-y: scroll;overflow-x: auto;height: 100%;background: #f6f9f8;}
+.wrap {width:1200px;margin:auto;}
+header {min-width:1200px;width:100%;height:60px;line-height:60px;z-index:99;background:#2b333d;font-size:14px;}
+.head_logo {width:100px;height:60px;float:left;color:#fff;font-size:36px;}
+.head_logo span {color:#f60;}
+.head_login {float:right;height:45px;color:#fff;padding-top:15px;}
+.head_login a {display:inline-block;width:60px;height:30px;line-height:30px;float:left;margin-left:16px;text-align:center; color:#999;border:1px solid #999;border-radius:20px;}
+.head_login a.register {color:#f60;border-color:#f60;}
+.head_login a:hover,.head_login a.register:hover {color:#fff;border-color:#fff;}
+.head_login p {float:right;line-height:30px;}
+.head_login p a.loginOut {float:right;margin-left:10px;}
+nav {float:right;padding-right:80px;}
+nav a {color:#999;margin:0 15px;float:left;position:relative;display:block;}
+nav a.active {color:#f60;}
+nav a:hover,nav a.active:hover {color:#fff;}
+nav a:after{content:'';position:absolute;left:0;right:0;bottom:15px;width:0;height:2px;margin:0 auto;background:#f60;transition:width .2s ease;}
+nav a:hover:after {width:100%;}
+
+/*弹出框*/
+.dialog-outer{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.6);z-index:100;}
+.dialog-close {width:20px;height:20px;background:url(../images/dialog-close.png) no-repeat center center;position:absolute;right:-30px;top:-30px;cursor:pointer;}
+.dialog-close:hover {background:url(../images/dialog-close-hover.png) no-repeat center center;}
+.dialog {position:absolute;top:50%;left:50%;}
+.dialog .content {width:100%;height:100%;overflow:hidden;background:#fff;border-radius:6px;}
+
+/*弹出-登录注册*/
+.dialog-login {width:900px;height:500px;margin-left:-450px;margin-top:-250px;}
+.vertical-line {position:absolute;top:10px;left:450px;width:1px;height:480px;background:rgba(106,111,123,.1);}
+.dialog-login-body * {margin:0;padding:0;box-sizing:border-box;}
+.dialog-login-body {display:flex;height:100%;}
+.left-tab,.right-tab {width:50%;height:100%;}
+.dialog-login .wechat-title {margin-top:59px;text-align:center;color:#23c253;font-size:16px;}
+.dialog-login .wechat-title p {position:relative;display:inline-block;background: url(../images/wechat-icon.png) no-repeat;height:20px;padding-left:28px;}
+.dialog-login .wechat-title p:before,.dialog-login .wechat-title p:after {content:'';width:20px;height:1px;background-color: rgba(102,102,102,.2);position:absolute;top:10px;}
+.dialog-login .wechat-title p:before {left:-30px;}
+.dialog-login .wechat-title p:after {right:-30px;}
+.dialog-login .wechat-box {margin:auto;width:240px;height:300px;margin-top:23px;border:1px solid #d9d9d9;padding:0 0 20px;}
+.dialog-login .wechat-qrcode {width:238px;height:238px;overflow:hidden;background-color:#fff;}
+.dialog-login .wechat-qrcode img {width:100%;border:0;}
+.dialog-login .wechat-scan {margin-top:10px;text-align:center;color:#666;font-size:14px;}
+.dialog-login .wechat-scan p {display:inline-block;background:url(../images/wechat-scan.png) no-repeat 0 4px;line-height:18px;padding-left:46px;}
+.dialog-login-content {padding-top:61px;position:relative;}
+.dialog-login-content .browser-suggestion {width:302px;text-align:center;font-size:12px;color:#999;position:absolute;bottom:30px;left:0;right:0;margin:0 auto;}
+.dialog-login-content .browser-suggestion a {cursor:pointer;text-decoration:underline;color:#006dff;}
+.dialog-login-tab {width:160px;height:30px;margin:0 auto;margin-bottom:33px;display:flex;}
+.dialog-login-tab a {color:#999;font-size:16px;width:50%;text-align:center;border-bottom:2px solid #ccc;}
+.dialog-login-tab a:hover {color:#f60;}
+.dialog-login-tab a.active {border-color:#f60;color:#f60;}
+
+.input-container {margin-left:73px;color:#999;font-size:14px;display:none;}
+.input-container.active {display:block;}
+.input-container .input-items {margin-bottom:24px;position:relative;width:302px;}
+.input-container .form-error {margin:-14px 0 10px;width:302px;text-align:left;color:#ea5454;font-size:12px;}
+.input-container button {cursor:pointer;outline:0;border:0;width:302px;height:38px;line-height:38px;color:#fff;font-size:14px;text-align:center;background:#ff8533;border-radius:4px;}
+.input-container button:hover {background:#ff7007;}
+.input-container .pass-condition {margin-top:12px;font-size:14px;color:#666;width:302px;}
+.input-container .checkbox_ipt {cursor:pointer;float:left;}
+.input-container .checkbox_ipt input {margin-right:3px;width:14px;height:14px;vertical-align: middle;}
+.input-container .pass-condition .forget-pass {float:right;color:#666;}
+.input-container .pass-condition .forget-pass:hover {color:#f60;}
+.input-container .reg-agreement {font-size:12px;color:#666;margin-top:12px;}
+.input-container .reg-agreement a {color:#006dff;text-decoration:underline;}
+.input-container .reg-agreement a:hover {text-decoration:none;color:#f60;}
+.input-container input {width:302px;height:38px;line-height:38px;border-radius:4px;border:1px solid #d9d9d9;outline:1px solid transparent;text-indent:16px;padding-left:16px;background-repeat:no-repeat;background-position:10px center;}
+.input-container input:hover, .input-container input:focus {border-color:#ff8533;}
+.input-container .user-account {background-image: url(../images/user.png);}
+.input-container input:hover.user-account, .input-container input:focus.user-account {background-image: url(../images/user-active.png);}
+.input-container .user-pass { background-image: url(../images/user-pass.png);}
+.input-container input:hover.user-pass, .input-container input:focus.user-pass {background-image: url(../images/user-pass-active.png);}
+.input-container .user-phone {background-image: url(../images/user-phone.png);}
+.input-container input:hover.user-phone, .input-container input:focus.user-phone { background-image: url(../images/user-phone-active.png);}
+.input-container .receive-code {background-image: url(../images/refresh.png);}
+.input-container input:hover.receive-code, .input-container input:focus.receive-code {background-image: url(../images/refresh-active.png);}
+.input-container .send-phone-code {position:absolute;top:1px;right:1px;width:85px;height:36px;line-height:36px;color:#999;font-size:12px;text-align:center;background:#e6e6e6;cursor: pointer;border-radius:0 3px 3px 0;}
+.input-container .input-items:hover .send-phone-code, .input-container .input-items.active .send-phone-code, .input-container .input-items:hover .send-phone-code:hover, .input-container .input-items.active .send-phone-code:hover {background-color: #ff8533;color: #fff;}
+/*弹出-登录注册 End*/
+
+/*------------------------弹出-模板信息--------------------*/
+.dialog-market {width:900px;height:560px;margin-left:-450px;margin-top:-280px;}
+.dialog-market-body {width:100%;height:100%;display:flex;}
+.market-view {margin:28px 65px;width:320px;height:504px;position:relative;background-color:#ccc;box-shadow:0 0 8px 0 rgba(0,0,0,.3);z-index:156;}
+.market-view .iframe {position:absolute;display:block;width:320px;margin:auto;height:504px;top:0;left:0;border:0;}
+.market-toggle {width:38px;position:absolute;right:-50px;bottom:13px;margin-top:428px;}
+.market-toggle .prev-page,.market-toggle .next-page {width:32px;height:32px;cursor:pointer;background-image:url(../images/next-page-icon.png);}
+.market-toggle .prev-page {margin-bottom:12px;transform: rotate(180deg);}
+.market-toggle .prev-page:hover {background-image: url(../images/prev-page-icon.png);transform:rotate(0);}
+.market-toggle .next-page:hover {background-image: url(../images/prev-page-icon.png);transform: rotate(180deg);}
+.market-info,.market-info * {box-sizing:border-box;}
+.market-info {border-radius:5px;position:relative;padding:64px 50px 50px 24px;width:450px;height:100%;color:#666;font-size:14px;background:#ededed;}
+.market-info .market-forward-view {position:relative;padding:20px 20px 10px 125px;min-height:110px;background:#fff;border:1px solid #e0e0e0;border-radius:5px;background-image: url(../images/wechat.png);background-position:right top;background-repeat: no-repeat;}
+
+.market-info .market-forward-view .img {position:absolute;left:20px;top:0;bottom:0;margin:auto;max-width:80px;max-height:80px;}
+.market-info .market-forward-view .market-title {font-size:16px;font-weight: 700;word-break:break-all;}
+.market-info .market-forward-view .market-dec {margin-top:20px;line-height:1.2;word-break: break-all;}
+.market-info .market-author-info {margin-top:40px;color:#999;height:20px;line-height:20px;}
+.market-info .market-author-info .market-account {float:right;}
+.market-info .market-organize-desc {width:254px;height:49px;margin:70px auto 0;background: url(../images/organize.png) no-repeat center center;}
+.market-info .market-price {position:absolute;left:24px;bottom:52px;}
+.market-info .market-price .ty-price {margin-bottom:5px;}
+.market-info .market-price .ty-price .line {text-decoration:line-through;}
+.market-info .market-price .vip-price-box {position:relative;}
+.market-info .market-price .vip-price-box .vip-price {color:#f60;}
+.market-info .market-buy {position:absolute;right:44px;bottom:50px;}
+.market-info .market-buy a {color:#fff;background:#f60;border-radius:4px;display:inline-block;height:40px;line-height:40px;width:120px;text-align:center;cursor:pointer;border: 1px solid transparent;}
+.market-info .market-buy a.upgrade-company-vip,.market-info .market-buy a.origin-buy {margin-right:6px;color:#666;background:#fff;border-color:#cecece;}
+.market-info .market-buy a.upgrade-company-vip:hover,.market-info .market-buy a.origin-buy:hover {color:#f60;}
+
+
+/*------------------------弹出-模板信息 End----------------*/
+
+/*模板分类*/
+.store-main-container {width:100%;margin:50px auto 0;position:relative;}
+.store-nav {overflow:hidden;background:#fff;margin:10px 0 38px;padding-top:40px;border:1px solid #e8e8e8;border-radius:4px;position:relative;}
+.store-nav-tab {font-size:16px;padding-left:40px;float:left;height:34px;}
+.store-nav-tab li {float:left;padding-bottom:11px;cursor:pointer;margin-right:40px;border-bottom:2px solid transparent;}
+.store-nav-tab li a {color: #666;}
+.store-nav-tab li.active {border-color:#ff8533;}
+.store-nav-tab li.active a {color:#ff7707;}
+.store-nav .search {float:right;width:260px;height:40px;position: absolute;top:20px;right:20px;}
+.store-nav .search .inp {box-sizing:border-box;width:215px;height:38px;line-height:38px;border-radius:4px 0 0 4px;border:1px solid #cecece;border-right:0;font-size:14px;padding-left:10px;vertical-align:middle;}
+.store-nav .search .sub {cursor:pointer;width:45px;height:40px;border:0;margin-left:-1px;background: url(../images/search.png) no-repeat center center;}
+.store-nav-list {border-top:1px solid #eaeaea;}
+.store-nav-category {height:40px;font-size:13px;padding-left:40px;border-bottom:1px dotted #cecece;position:relative;overflow:hidden;}
+.transition {transition: ease .5s;}
+.store-nav-category .title {display:inline-block;vertical-align:top;font-weight:700;margin-right:38px;line-height:40px;}
+.store-nav-category .more {cursor:pointer;height:40px;line-height:40px;position:absolute;right:20px;padding-right:16px;background:url(../images/more.png) no-repeat right center;color:#666;z-index:3;}
+.store-nav-category .more.active {color:#ff7707;background-image:url(../images/more_active.png);}
+.store-nav-category ul {display:inline-block;width:1051px;}
+.store-nav-category li {display:inline-block;padding:5px;margin:7px 28px 6px 0;border-radius:4px;}
+.store-nav-category li a {color:#666;}
+.store-nav-category li:hover a {color:#f60;}
+.store-nav-category ul li.active,.store-nav-category ul li.active:hover {background:#ff8533;}
+.store-nav-category ul li.active a,.store-nav-category ul li.active:hover a {color:#fff;}
+
+.store-filter {height:68px;line-height:68px;padding-left:40px;}
+.store-filter-class {width:600px;font-size:13px;color:#666;display:inline-block;float: left;}
+.store-filter-class li {display:inline-block;height:18px;line-height:18px;margin-right:14px;cursor:pointer;}
+.store-filter-class li span {display:inline-block;width:12px;height:12px;border:1px #ccc solid;border-radius:50%;position: relative;top:2px;margin-right:9px;}
+.store-filter-class li.active span {border-color:#f60;}
+.store-filter-class li.active span:after {position:absolute;content:'';width:6px;height:6px;border-radius: 50%;top:0;bottom:0;margin:auto;left:0;right:0;background:#f60;}
+.store-filter-class li b {font-size:14px;color:#666;}
+
+.store-filter-price {display:inline-block;margin-left:100px;float: left;}
+.store-filter-price li {cursor:pointer;display:inline-block;}
+.store-filter-price li a {color:#666;}
+.store-filter-price li a span {display:inline-block;vertical-align:middle;margin-right:20px;}
+.store-filter-price li a span:first-child {border:1px solid #cecece;border-radius:3px;height:14px;width:14px;margin-right:5px;}
+.store-filter-price li.active a span:first-child {background: url(../images/check.png) no-repeat center center;}
+
+.store-filter-order {float:right;margin-right:12px;display:inline-block;font-size:0;}
+.store-filter-order li {display:inline-block;width:70px;height:33px;border:1px #cecece solid;line-height:33px;font-size:13px;text-align:center;vertical-align:middle;}
+.store-filter-order li:first-child {border-radius:5px 0 0 5px;border-left-width:1px;}
+.store-filter-order li:last-child {border-radius:0 5px 5px 0;}
+.store-filter-order li.active {background:#ff8533;border-color:#ff7007;}
+.store-filter-order li a {display:block;color:#666;}
+.store-filter-order li.active a {color:#fff;}
+
+/*模板分类*/
+
+/*模板列表*/
+.store-list {width:100%;height:100%;min-height:80px;margin-top:20px;position:relative;}
+.store-list li {width:200px;height:254px;padding:3px;border:1px #dfdfdf solid;cursor: pointer;background:#fff;box-shadow:0 0 1px 0 #e4e5e5,0 0 2px 1px #eaeaea;border-radius: 4px;overflow:hidden;position:relative;margin-bottom:50px;float:left;margin-right:40px;}
+.store-list li:nth-child(5n) {margin-right:0;}
+.store-list img {width:200px;height:200px;border:0;display:block;border-radius:3px;}
+.store-list .lazy .store-item-tip {display:block;position:absolute;right:-3px;top:-3px;width:50px;height:50px;background-position:center center;background-repeat:no-repeat;}
+.store-list .lazy .store-item-tip.freelimit {background-image:url(../images/freelimit.png);}
+.store-list .title {font-size:14px;font-weight:700;color:#999;margin-top:8px;padding-left:8px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.store-list .empty {color:#666;}
+.store-list .empty .lazy {background:#fff;font-size:100px;line-height:200px;text-align:center;}
+.store-list .empty .title {text-align:center;font-size:18px;padding-left:0;height:24px;}
+.store-list .empty:hover,.store-list .empty:hover .title {color:#f60;}
+.store-list .desc, .store-list .author {display:none;}
+.store-list .bottom {margin-top: 5px;margin-left: 12px;}
+.store-list .bottom .price {float:right;color:#fe7325;margin-right:12px;font-weight:700;font-size:14px;}
+.store-list .bottom .desc {display:inline-block;width:45px;height:18px;line-height:18px;text-align:center;font-size:12px;border-radius:3px;}
+.store-list .bottom .desc.design {border: 1px solid #ff8533;color: #ff7707;background-color: #ffe2cd;}
+.store-list .bottom .desc.design:after {content:'创意';}
+
+.store-list .mask {opacity:0;width:206px;height:255px;padding:3px;position:absolute;top:0;left:0;transition:.2s;transform:scale3d(.3,.3,.3);}
+.store-list .qrcode {position:relative;width:100%;height:100%;display:none;}
+.store-list .qrcode .video-logo {position:absolute;margin:auto;left:0;right:0;bottom:0;width:40px;height:40px;background:url(../images/hoverplay.png);border-radius:50%;}
+.store-list li:hover .mask {transform: scale3d(1,1,1);opacity:1;background:#fff;}
+.store-list li:hover .qrcode {display:block;}
+/*模板列表*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
