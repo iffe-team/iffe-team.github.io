@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <meta name="baidu-site-verification" content="TwTFrL2VpR">
+        <meta name="renderer" content="webkit">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta http-equiv="pragma" content="no-cache">
+        <title>demo</title>
+        <link rel="stylesheet" href="stylesheets/create.css">
+    </head>
+    <body>
+        <nav class="bars bars-nav">
+            <li>
+                <a href="javascript:;" role="logo">XX系统</a>
+                <a href="javascript:;" class="tab-item" role="save">
+                    <span class="icon icon-save"></span>
+                    <span class="tab-cel">保存</span>
+                </a>
+                <a href="javascript:;" class="tab-item" role="view">
+                    <span class="icon icon-view"></span>
+                    <span class="tab-cel">预览</span>
+                </a>
+                <a href="javascript:;" class="tab-item" role="release">
+                    <span class="icon icon-release"></span>
+                    <span class="tab-cel">发布</span>
+                </a>
+            </li>
+            <li>
+                <input type="text" placeholder="作品名称..." maxlength="30" class="menu-name">
+            </li>
+            <li>
+                <div class="menu-login">
+                    <span>登录</span>
+                    <span>|</span>
+                    <span>注册</span>
+                </div>
+                <div class="menu-username">moran</div>
+            </li>
+        </nav>
+
+        <!--     ** 左侧分屏 **     -->
+        <aside class="sidebar-left pageList">
+            <ul class="pageList-pages">
+                <li class="active">
+                    <div class="pageList-pages-left">
+                        <span class="icon icon-fav pageList-pages-btn"></span>
+                        <span class="icon icon-up pageList-pages-btn"></span>
+                        <span class="pageList-pages-num">1</span>
+                        <span class="icon icon-down pageList-pages-btn"></span>
+                        <span class="icon icon-copy pageList-pages-btn"></span>
+                    </div>
+                    <div class="pageList-pages-main">
+                        <div class="pageList-pages-area">
+                            <div class="pageList-primary-area">
+                                <img src="images/img.jpg" alt="">
+                            </div>
+                            <div class="pageList-other-area">这是其他画布小</div>
+                        </div>
+                        <div class="pageList-pages-top">
+                            <a href="javascript:;" class="icon icon-close"></a>
+                        </div>
+                        <div class="pageList-pages-bottom">
+                            <a href="javascript:;" class="icon icon-add"></a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="pageList-pages-left">
+                        <span class="icon icon-fav pageList-pages-btn"></span>
+                        <span class="icon icon-up pageList-pages-btn"></span>
+                        <span class="pageList-pages-num">2</span>
+                        <span class="icon icon-down pageList-pages-btn"></span>
+                        <span class="icon icon-copy pageList-pages-btn"></span>
+                    </div>
+                    <div class="pageList-pages-main">22</div>
+                </li>
+                <li>
+                    <div class="pageList-pages-left">
+                        <span class="icon icon-fav pageList-pages-btn"></span>
+                        <span class="icon icon-up pageList-pages-btn"></span>
+                        <span class="pageList-pages-num">3</span>
+                        <span class="icon icon-down pageList-pages-btn"></span>
+                        <span class="icon icon-copy pageList-pages-btn"></span>
+                    </div>
+                    <div class="pageList-pages-main">22</div>
+                </li>
+                <li>
+                    <div class="pageList-pages-left">
+                        <span class="icon icon-fav pageList-pages-btn"></span>
+                        <span class="icon icon-up pageList-pages-btn"></span>
+                        <span class="pageList-pages-num">3</span>
+                        <span class="icon icon-down pageList-pages-btn"></span>
+                        <span class="icon icon-copy pageList-pages-btn"></span>
+                    </div>
+                    <div class="pageList-pages-main">22</div>
+                </li>
+                <li>
+                    <div class="pageList-pages-left">
+                        <span class="icon icon-fav pageList-pages-btn"></span>
+                        <span class="icon icon-up pageList-pages-btn"></span>
+                        <span class="pageList-pages-num">4</span>
+                        <span class="icon icon-down pageList-pages-btn"></span>
+                        <span class="icon icon-copy pageList-pages-btn"></span>
+                    </div>
+                    <div class="pageList-pages-main">22</div>
+                </li>
+            </ul>
+        </aside>
+        <!--     ** 左侧分屏 **     -->
+
+        <!--     ** 右侧工具条 **     -->
+        <aside class="sidebar-right toolsList">
+            <a href="javascript:;" role="tools-text">
+                <span class="tools-name">文字</span>
+                <span class="icon icon-text tools-btn"></span>
+                <div class="tooltip left">
+                    <span class="tooltip-arrow"></span>
+                    <p class="tooltip-text">点击添加一个文字组件</p>
+                </div>
+            </a>
+            <a href="javascript:;" role="tools-img">
+                <span class="tools-name">图片</span>
+                <span class="icon icon-img tools-btn"></span>
+                <div class="tooltip left">
+                    <span class="tooltip-arrow"></span>
+                    <p class="tooltip-text">点击添加一个图片组件</p>
+                </div>
+            </a>
+            <a href="javascript:;" role="tools-shape">
+                <span class="tools-name">形状</span>
+                <span class="icon icon-shape tools-btn"></span>
+                <div class="tooltip left">
+                    <span class="tooltip-arrow"></span>
+                    <p class="tooltip-text">点击添加一个形状组件</p>
+                </div>
+            </a>
+            <a href="javascript:;" role="tools-button">
+                <span class="tools-name">按钮</span>
+                <span class="icon icon-button tools-btn"></span>
+                <div class="tooltip left">
+                    <span class="tooltip-arrow"></span>
+                    <p class="tooltip-text">点击添加一个按钮组件</p>
+                </div>
+            </a>
+            <a href="javascript:;" role="tools-form">
+                <span class="tools-name">表单</span>
+                <span class="icon icon-form tools-btn"></span>
+                <div class="tooltip left">
+                    <span class="tooltip-arrow"></span>
+                    <p class="tooltip-text">点击添加一个表单组件</p>
+                </div>
+            </a>
+            <a href="javascript:;" role="tools-music">
+                <span class="tools-name">音乐</span>
+                <span class="icon icon-music tools-btn"></span>
+                <div class="tooltip left">
+                    <span class="tooltip-arrow"></span>
+                    <p class="tooltip-text">点击添加一个音乐组件</p>
+                </div>
+            </a>
+            <a href="javascript:;" role="tools-dynamic">
+                <span class="tools-name">互动</span>
+                <span class="icon icon-dynamic tools-btn"></span>
+                <div class="tooltip left">
+                    <span class="tooltip-arrow"></span>
+                    <div class="tooltip-main">
+                        <div class="dynamic-list">
+                            <mark href="javascript:;">
+                                <span class="icon icon-video"></span>
+                                <span>视频</span>
+                            </mark>
+                            <mark href="javascript:;">
+                                <span class="icon icon-tell"></span>
+                                <span>一键拨号</span>
+                            </mark>
+                            <mark href="javascript:;">
+                                <span class="icon icon-dynamic"></span>
+                                <span>指纹计数</span>
+                            </mark>
+                            <mark href="javascript:;">
+                                <span class="icon icon-map"></span>
+                                <span>地图</span>
+                            </mark>
+                            <mark href="javascript:;">
+                                <span class="icon icon-chat"></span>
+                                <span>留言</span>
+                            </mark>
+                            <mark href="javascript:;">
+                                <span class="icon icon-like"></span>
+                                <span>点赞</span>
+                            </mark>
+                            <mark href="javascript:;">
+                                <span class="icon icon-form"></span>
+                                <span>自由表单</span>
+                            </mark>
+                            <mark href="javascript:;">
+                                <span class="icon icon-app"></span>
+                                <span>App直链</span>
+                            </mark>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="javascript:;" role="tools-extend">
+                <span class="tools-name">扩展</span>
+                <span class="icon icon-extend tools-btn"></span>
+                <div class="tooltip left">
+                    <span class="tooltip-arrow"></span>
+                    <p class="tooltip-text">点击添加一个扩展组件</p>
+                </div>
+            </a>
+            <a href="javascript:;" role="tools-logo-edit">
+                logo
+                <span class="icon icon-logo-edit tools-btn"></span>
+                <div class="tooltip left">
+                    <span class="tooltip-arrow"></span>
+                    <p class="tooltip-text">修改加载logo和链接</p>
+                </div>
+            </a>
+        </aside>
+        <!--     ** 右侧工具条 **     -->
+
+        <!--     ** 图层管理窗口 **     -->
+        <aside class="layer-management-area" style="display: none;">
+            <div class="layer-management-header">
+                <span class="icon icon-folder active"></span>
+                <span class="icon icon-trash"></span>
+                <span class="icon icon-lock"></span>
+                <span class="icon icon-close"></span>
+            </div>
+            <ul class="layer-management-main">
+                <li>
+                    <span class="icon icon-unvisible"></span>
+                    <span class="layer-name">图片1</span>
+                    <span class="icon icon-lock"></span>
+                </li>
+                <li>
+                    <span class="icon icon-unvisible"></span>
+                    <span class="layer-name">图片2</span>
+                    <span class="icon icon-lock"></span>
+                </li>
+                <li class="click-lock">
+                    <span class="icon icon-visible"></span>
+                    <span class="layer-name">图片3</span>
+                    <span class="icon icon-lock"></span>
+                </li>
+                <li>
+                    <span class="icon icon-visible"></span>
+                    <span class="layer-name">图片4</span>
+                    <span class="icon icon-lock"></span>
+                </li>
+                <li>
+                    <span class="icon icon-visible"></span>
+                    <span class="layer-name">图片5</span>
+                    <span class="icon icon-lock"></span>
+                </li>
+                <li>
+                    <span class="icon icon-visible"></span>
+                    <span class="layer-name">图片6</span>
+                    <span class="icon icon-lock"></span>
+                </li>
+            </ul>
+        </aside>
+        <!--     ** 图层管理窗口 **     -->
+
+        <!--     ** 正文窗口工具条 **     -->
+        <aside class="edit-tools-area">
+            <span class="icon icon-undo"></span>
+            <span class="icon icon-redo"></span>
+            <span class="icon icon-settings"></span>
+            <span class="icon icon-figure"></span>
+            <span class="icon icon-ps"></span>
+        </aside>
+        <!--     ** 正文窗口工具条 **     -->
+
+        <!--     ** 正文窗口 **     -->
+        <div class="editWrapper">
+            <div class="editWrap">
+                <div class="editWrap-main">
+                    <div class="primary-canvas-area">
+                        <img src="images/img.jpg" alt="">
+                    </div>
+                    <div class="other-canvas-area">这是其他画布</div>
+                    <div class="primary-textarea-area">
+                        <p>请双击输入文字</p>
+                    </div>
+                    <!--  **文字功能调用框___与primary-textarea-area绑定显示**  -->
+                    <div class="primary-textareaBox-area">
+                      <div class="primary-textareaBox-main">
+                        <div class="primary-textareaBox-point lefttop"></div>
+                        <div class="primary-textareaBox-point centertop"></div>
+                        <div class="primary-textareaBox-point righttop"></div>
+                        <div class="primary-textareaBox-point leftcenter"></div>
+                        <div class="primary-textareaBox-point rightcenter"></div>
+                        <div class="primary-textareaBox-point leftbottom"></div>
+                        <div class="primary-textareaBox-point centerbottom"></div>
+                        <div class="primary-textareaBox-point rightbottom"></div>
+                      </div>
+                    </div>
+                    <!--  **文字功能调用框___与primary-textarea-area绑定显示**  -->
+                </div>
+            </div>
+            <aside class="editWrap-btns-area">
+                <span class="icon icon-save"></span>
+                <span class="icon icon-go active"></span>
+            </aside>
+        </div>
+        <!--     ** 正文窗口 **     -->
+
+        <!--     ** 操作状态 **     -->
+        <aside class="operational-status">
+            <div class="operational-status-area">
+                <span class="unchoose">粘贴</span>
+            </div>
+        </aside>
+
+        <aside class="operational-status" style="left: calc(50% + 10px);top: calc(50% + 50px);">
+            <div class="operational-status-area">
+                <span>锁定</span>
+                <span>复制</span>
+                <span class="unchoose">粘贴</span>
+                <span>设置为背景图片</span>
+                <span>删除动画</span>
+            </div>
+        </aside>
+        <!--     ** 操作状态 **     -->
+
+        <!--     ** 图片编辑窗口 **     -->
+        <aside class="edit-img-area">
+            <ul class="edit-img-area-menu">
+                <li class="active">
+                    <span class="icon icon-img"></span>
+                    <span>图片</span>
+                </li>
+                <li>
+                    <span class="icon icon-animate"></span>
+                    <span>动画</span>
+                </li>
+                <li>
+                    <span class="icon icon-touch"></span>
+                    <span>触发</span>
+                </li>
+            </ul>
+            <div class="edit-img-area-main">
+                <!--   *图片编辑*    -->
+                <div class="edit-img-area-container">
+                    <div class="edit-img-plug-ins" style="height: 120px;">
+                        <img src="images/img.jpg" width="120" height="120" alt="">
+                    </div>
+                    <div class="edit-img-operational-area">
+                        <!--     ** 操作按钮 **     -->
+                        <!-- <div class="edit-img-operational-btn">
+                            <a href="javascript:;">确认</a>
+                            <a href="javascript:;">取消</a>
+                        </div> -->
+                        <!--     ** 操作按钮 **     -->
+
+                        <!--     ** 操作选项 **     -->
+                        <div class="edit-img-operational-menu">
+                            <span class="icon icon-cut"></span>
+                            <span>替换</span>
+                            <span class="icon icon-close"></span>
+                        </div>
+                        <!--     ** 操作选项 **     -->
+                    </div>
+                    <div class="edit-img-colors-area">
+                        <ul class="edit-tabs-title">
+                            <li class="active">
+                                <div class="edit-img-colors-title">
+                                    <span class="icon icon-border-colors"></span>
+                                    <span>边框色</span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="edit-img-colors-main">
+                            <ul class="edit-img-colors-box">
+                                <li>
+                                    <span class="icon icon-slash"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                </li>
+                                <li>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                </li>
+                                <li>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="icon icon-colors"></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="edit-img-special-effects">
+                        <ul class="special-effects-menu">
+                            <li class="active">形状</li>
+                            <li>特效</li>
+                            <li>滤镜</li>
+                            <li>效果</li>
+                        </ul>
+                        <div class="special-effects-main">
+                            <ul class="special-effects-area">
+                                <li>
+                                    <div class="settings-border-area">
+                                        <span>边框</span>
+                                        <span>无</span>
+                                        <span class="icon icon-down-arrow"></span>
+                                    </div>
+                                    <div class="settings-radius-area">
+                                        <span>圆角</span>
+                                        <span>无</span>
+                                        <span class="icon icon-down-arrow"></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="settings-mode-area">
+                                        <span>椭圆模式</span>
+                                        <span class="mode-btn">OFF</span>
+                                    </div>
+                                    <div class="hide">&nbsp;</div>
+                                </li>
+                            </ul>
+                            <!--   点击边框和圆角显示的下拉框    -->
+                            <div class="settings-options" id="select-border">
+                                <ul class="setting-options-list">
+                                    <li>1px</li>
+                                    <li>5px</li>
+                                    <li>10px</li>
+                                    <li>15px</li>
+                                    <li>20px</li>
+                                </ul>
+                            </div>
+                            <!---  for radius  --->
+                            <div class="settings-options" id="select-radius" style="left: initial; right: 10px;">
+                                <ul class="setting-options-list">
+                                    <li>1px</li>
+                                    <li>5px</li>
+                                    <li>10px</li>
+                                    <li>15px</li>
+                                    <li>20px</li>
+                                </ul>
+                            </div>
+                            <!---  for radius  --->
+                            <!--   点击边框和圆角显示的下拉框    -->
+                        </div>
+
+                        <div class="other-effects-main">
+                            <ul class="special-effects-area">
+                                <li>
+                                    <div class="settings-width-area settings-w-h">
+                                        <label for="input-width">宽度</label>
+                                        <input type="text" id="input-width" placeholder="162" />
+                                        <span class="icon-btns-area">
+                                            <mark class="icon icon-up-arrow"></mark>
+                                            <mark class="icon icon-down-arrow"></mark>
+                                        </span>
+                                    </div>
+                                    <div class="settings-height-area settings-w-h">
+                                        <label for="input-height">高度</label>
+                                        <input type="text" id="input-height" placeholder="162" />
+                                        <span class="icon-btns-area">
+                                            <mark class="icon icon-up-arrow"></mark>
+                                            <mark class="icon icon-down-arrow"></mark>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="setting-opacity-area">
+                                        <div class="setting-opacity-main">
+                                            <span>透明度</span>
+                                            <div class="rang-area">
+                                                <div class="rang-main"></div>
+                                                <div class="rang-btn"></div>
+                                            </div>
+                                            <input type="text" placeholder="0%" />
+                                        </div>
+                                        <div class="setting-opacity-main">
+                                            <span>透明度</span>
+                                            <div class="rang-area active">
+                                                <div class="rang-main"></div>
+                                                <div class="rang-main rang-main-active"></div>
+                                                <div class="rang-btn" style="left: 80px;"></div>
+                                            </div>
+                                            <input type="text" placeholder="0%" />
+                                        </div>
+                                        <div class="setting-rotate-main">
+                                            <span>旋转</span>
+                                            <div class="rang-area active">
+                                                <div class="rang-main"></div>
+                                                <div class="rang-btn" style="left: initial; right: 0;"></div>
+                                            </div>
+                                            <input type="text" placeholder="360" />
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--   *图片编辑*    -->
+
+                <!--   *动画编辑*    -->
+                <div class="edit-img-area-container" style="display: none;">
+                    <div class="animate-operation-btns">
+                        <a href="javascript:;">
+                            <span class="icon icon-add-animate"></span>
+                            <span>添加动画</span>
+                        </a>
+                        <a href="javascript:;">
+                            <span class="icon icon-play"></span>
+                            <span>播放动画</span>
+                        </a>
+                    </div>
+                    <div class="animate-list-area">
+                        <div class="animate-list-operation">
+                            <a href="javascript:;" class="select-animate">
+                                <span class="icon icon-down-arrow"></span>
+                                <span>动画一<mark>(从左淡出)</mark></span>
+                            </a>
+                            <a href="javascript::" class="icon icon-trash"></a>
+                        </div>
+                        <div class="animate-list-main">
+                            <ul class="animate-list-tabs">
+                                <li class="active">入场类</li>
+                                <li>强调类</li>
+                                <li>退出类</li>
+                            </ul>
+                            <div class="animate-list-box">
+                                <ul class="animate-list">
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="animate-setting-time">
+                              <ul class="special-effects-area">
+                                  <li>
+                                      <div class="settings-width-area settings-w-h">
+                                          <label for="input-time">时间</label>
+                                          <input type="text" id="input-time" placeholder="1秒" />
+                                          <span class="icon-btns-area">
+                                              <mark class="icon icon-up-arrow"></mark>
+                                              <mark class="icon icon-down-arrow"></mark>
+                                          </span>
+                                      </div>
+                                      <div class="settings-height-area settings-w-h">
+                                          <label for="input-delay">延迟</label>
+                                          <input type="text" id="input-delay" placeholder="1秒" />
+                                          <span class="icon-btns-area">
+                                              <mark class="icon icon-up-arrow"></mark>
+                                              <mark class="icon icon-down-arrow"></mark>
+                                          </span>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="settings-width-area settings-w-h">
+                                          <label for="input-frequency">次数</label>
+                                          <input type="text" id="input-frequency" placeholder="1次" />
+                                          <span class="icon-btns-area">
+                                              <mark class="icon icon-up-arrow"></mark>
+                                              <mark class="icon icon-down-arrow"></mark>
+                                          </span>
+                                      </div>
+                                  </li>
+                              </ul>
+                            </div>
+                            <a href="#" target="_blank" class="link">如何使用?</a>
+                        </div>
+                    </div>
+                </div>
+                <!--   *动画编辑*    -->
+
+                <!--   *触发编辑*    -->
+                <div class="edit-img-area-container" style="display: none;">
+                    <div class="touch-operation-area">
+                        <div class="touch-effect-area">
+                            <p>单击当前组件时</p>
+                            <div class="touch-effect-select">
+                                <div class="settings-effect-area">
+                                    <span>&nbsp;</span>
+                                    <span>无</span>
+                                    <span class="icon icon-down-arrow"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="settings-options" id="select-touch-effect">
+                            <ul class="setting-options-list">
+                                <li>无</li>
+                                <li>显示/隐藏</li>
+                                <li>跳转页面</li>
+                                <li>跳转链接</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="settings-guide-area">
+                        <div class="setting-guide-box">
+                            <span class="icon icon-touch"></span>
+                            <div class="setting-gide-main">
+                                <span>添加指引图示</span>
+                                <span class="mode-btn">OFF</span>
+                            </div>
+                        </div>
+                        <a href="#" target="_blank" class="link">如何使用？</a>
+                    </div>
+                </div>
+                <!--   *触发编辑*    -->
+            </div>
+        </aside>
+        <!--     ** 图片编辑窗口 **     -->
+
+        <!--     ** 文字编辑窗口 **     -->
+        <aside class="edit-img-area">
+            <ul class="edit-img-area-menu">
+                <li class="active">
+                    <span class="icon icon-text"></span>
+                    <span>文字</span>
+                </li>
+                <li>
+                    <span class="icon icon-animate"></span>
+                    <span>动画</span>
+                </li>
+                <li>
+                    <span class="icon icon-touch"></span>
+                    <span>触发</span>
+                </li>
+            </ul>
+            <div class="edit-img-area-main">
+                <!--   *图片编辑*    -->
+                <div class="edit-img-area-container">
+                    <div class="edit-text-area">
+                        <ul class="edit-text-tools">
+                            <li>
+                                <div>
+                                    <div class="setting-font">
+                                        <span>字体</span>
+                                        <span>微软雅黑</span>
+                                        <span class="icon icon-down-arrow"></span>
+                                    </div>
+                                    <div class="settings-options" id="select-font">
+                                        <ul class="setting-options-list">
+                                            <li>微软雅黑</li>
+                                            <li>宋体</li>
+                                            <li>黑体</li>
+                                            <li>Arial</li>
+                                            <li>sans-serif</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="add-font">
+                                        <span class="icon icon-add-animate"></span>
+                                        <div class="tooltip top">
+                                            <span class="tooltip-arrow"></span>
+                                            <p class="tooltip-text">加载本地字体</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div class="setting-font">
+                                        <span class="icon icon-word-spacing"></span>
+                                        <span>18px</span>
+                                        <span class="icon icon-down-arrow"></span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <ul class="setting-font-size">
+                                        <li>
+                                            <span class="icon icon-big"></span>
+                                            <div class="tooltip top">
+                                                <span class="tooltip-arrow"></span>
+                                                <p class="tooltip-text">加大字号</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="icon icon-small"></span>
+                                            <div class="tooltip top">
+                                                <span class="tooltip-arrow"></span>
+                                                <p class="tooltip-text">减小字号</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div class="setting-font">
+                                        <span class="icon icon-line-spacing"></span>
+                                        <span>18px</span>
+                                        <span class="icon icon-down-arrow"></span>
+                                    </div>
+                                </div>
+                                <div>&nbsp;</div>
+                            </li>
+                        </ul>
+                        <ul class="edit-text-more">
+                            <li>
+                                <span class="icon icon-bold"></span>
+                                <div class="tooltip top">
+                                    <span class="tooltip-arrow"></span>
+                                    <p class="tooltip-text">加粗</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="icon icon-itial"></span>
+                                <div class="tooltip top">
+                                    <span class="tooltip-arrow"></span>
+                                    <p class="tooltip-text">斜体</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="icon icon-underline"></span>
+                                <div class="tooltip top">
+                                    <span class="tooltip-arrow"></span>
+                                    <p class="tooltip-text">下划线</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="icon icon-text-left"></span>
+                                <div class="tooltip top">
+                                    <span class="tooltip-arrow"></span>
+                                    <p class="tooltip-text">左对齐</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="icon icon-text-center"></span>
+                                <div class="tooltip top">
+                                    <span class="tooltip-arrow"></span>
+                                    <p class="tooltip-text">居中</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="icon icon-text-right"></span>
+                                <div class="tooltip top">
+                                    <span class="tooltip-arrow"></span>
+                                    <p class="tooltip-text">右对齐</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="icon icon-clear"></span>
+                                <div class="tooltip top">
+                                    <span class="tooltip-arrow"></span>
+                                    <p class="tooltip-text">清除</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="edit-img-colors-area">
+                        <ul class="edit-tabs-title">
+                            <li class="active">
+                                <div class="edit-img-colors-title">
+                                    <span class="icon icon-font-colors"></span>
+                                    <span>文字色</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="edit-img-colors-title">
+                                    <span class="icon icon-backgroundcolor"></span>
+                                    <span>背景色</span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="edit-img-colors-main">
+                            <ul class="edit-img-colors-box">
+                                <li>
+                                    <span class="icon icon-slash"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                </li>
+                                <li>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                </li>
+                                <li>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="color"></span>
+                                    <span class="icon icon-colors"></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="setting-font-width">
+                        <label for="font-width">宽度</label>
+                        <input type="text" id="font-width" placeholder="162" />
+                        <span class="icon-btns-area">
+                            <mark class="icon icon-up-arrow"></mark>
+                            <mark class="icon icon-down-arrow"></mark>
+                        </span>
+                    </div>
+                    <div class="edit-img-special-effects">
+                        <div class="other-effects-main">
+                            <ul class="special-effects-area">
+                                <li>
+                                    <div class="setting-opacity-area">
+                                        <div class="setting-opacity-main">
+                                            <span>透明度</span>
+                                            <div class="rang-area">
+                                                <div class="rang-main"></div>
+                                                <div class="rang-btn"></div>
+                                            </div>
+                                            <input type="text" placeholder="0%" />
+                                        </div>
+                                        <div class="setting-opacity-main">
+                                            <span>透明度</span>
+                                            <div class="rang-area active">
+                                                <div class="rang-main"></div>
+                                                <div class="rang-main rang-main-active"></div>
+                                                <div class="rang-btn" style="left: 80px;"></div>
+                                            </div>
+                                            <input type="text" placeholder="0%" />
+                                        </div>
+                                        <div class="setting-rotate-main">
+                                            <span>旋转</span>
+                                            <div class="rang-area active">
+                                                <div class="rang-main"></div>
+                                                <div class="rang-btn" style="left: initial; right: 0;"></div>
+                                            </div>
+                                            <input type="text" placeholder="360" />
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--   *图片编辑*    -->
+
+                <!--   *动画编辑*    -->
+                <div class="edit-img-area-container" style="display: none;">
+                    <div class="animate-operation-btns">
+                        <a href="javascript:;">
+                            <span class="icon icon-add-animate"></span>
+                            <span>添加动画</span>
+                        </a>
+                        <a href="javascript:;">
+                            <span class="icon icon-play"></span>
+                            <span>播放动画</span>
+                        </a>
+                    </div>
+                    <div class="animate-list-area">
+                        <div class="animate-list-operation">
+                            <a href="javascript:;" class="select-animate">
+                                <span class="icon icon-down-arrow"></span>
+                                <span>动画一<mark>(从左淡出)</mark></span>
+                            </a>
+                            <a href="javascript::" class="icon icon-trash"></a>
+                        </div>
+                        <div class="animate-list-main">
+                            <ul class="animate-list-tabs">
+                                <li class="active">入场类</li>
+                                <li>强调类</li>
+                                <li>退出类</li>
+                            </ul>
+                            <div class="animate-list-box">
+                                <ul class="animate-list">
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/img.jpg" width="48" height="48" alt="">
+                                        <p>从上淡入</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="animate-setting-time">
+                              <ul class="special-effects-area">
+                                  <li>
+                                      <div class="settings-width-area settings-w-h">
+                                          <label for="input-time">时间</label>
+                                          <input type="text" id="input-time" placeholder="1秒" />
+                                          <span class="icon-btns-area">
+                                              <mark class="icon icon-up-arrow"></mark>
+                                              <mark class="icon icon-down-arrow"></mark>
+                                          </span>
+                                      </div>
+                                      <div class="settings-height-area settings-w-h">
+                                          <label for="input-delay">延迟</label>
+                                          <input type="text" id="input-delay" placeholder="1秒" />
+                                          <span class="icon-btns-area">
+                                              <mark class="icon icon-up-arrow"></mark>
+                                              <mark class="icon icon-down-arrow"></mark>
+                                          </span>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="settings-width-area settings-w-h">
+                                          <label for="input-frequency">次数</label>
+                                          <input type="text" id="input-frequency" placeholder="1次" />
+                                          <span class="icon-btns-area">
+                                              <mark class="icon icon-up-arrow"></mark>
+                                              <mark class="icon icon-down-arrow"></mark>
+                                          </span>
+                                      </div>
+                                  </li>
+                              </ul>
+                            </div>
+                            <a href="#" target="_blank" class="link">如何使用?</a>
+                        </div>
+                    </div>
+                </div>
+                <!--   *动画编辑*    -->
+
+                <!--   *触发编辑*    -->
+                <div class="edit-img-area-container" style="display: none;">
+                    <div class="touch-operation-area">
+                        <div class="touch-effect-area">
+                            <p>单击当前组件时</p>
+                            <div class="touch-effect-select">
+                                <div class="settings-effect-area">
+                                    <span>&nbsp;</span>
+                                    <span>无</span>
+                                    <span class="icon icon-down-arrow"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="settings-options" id="select-touch-effect">
+                            <ul class="setting-options-list">
+                                <li>无</li>
+                                <li>显示/隐藏</li>
+                                <li>跳转页面</li>
+                                <li>跳转链接</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="settings-guide-area">
+                        <div class="setting-guide-box">
+                            <span class="icon icon-touch"></span>
+                            <div class="setting-gide-main">
+                                <span>添加指引图示</span>
+                                <span class="mode-btn">OFF</span>
+                            </div>
+                        </div>
+                        <a href="#" target="_blank" class="link">如何使用？</a>
+                    </div>
+                </div>
+                <!--   *触发编辑*    -->
+            </div>
+        </aside>
+        <!--     ** 文字编辑窗口 **     -->
+
+        <script src="js/jquery-3.1.0.min.js"></script>
+        <script type="text/javascript">
+            $(function(){
+                $(".settings-border-area").click(function(){
+                    $("#select-border").addClass("active");
+                });
+                $(".settings-radius-area").click(function(){
+                    $("#select-radius").addClass("active");
+                });
+                $(".touch-effect-area").click(function(){
+                    $("#select-touch-effect").addClass("active");
+                });
+                $("a[role='tools-img']").click(function(){
+                  $(".edit-img-area").addClass("active");
+                });
+                $(".setting-font").click(function(){
+                  $("#select-font").addClass("active");
+                });
+                // $(".toolsList a").mouseover(function() {
+                //     $(this).find(".tooltip").addClass("fade");
+                // }) .mouseout(function(){
+                //     $(".tooltip").removeClass("fade");
+                // });
+            });
+        </script>
+    </body>
+</html>
